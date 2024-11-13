@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Altx.PortScanner.Application\Altx.PortScanner.Application.csproj" />
+    <ProjectReference Include="..\Altx.PortScanner.Domain\Altx.PortScanner.Domain.csproj" />
+    <ProjectReference Include="..\Altx.PortScanner.EntityFrameworkCore\Altx.PortScanner.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Altx.PortScanner.Nmap.XmlSchemeModels\Altx.PortScanner.Nmap.XmlSchemeModels.csproj" />
+    <ProjectReference Include="..\Altx.PortScanner.Shared\Altx.PortScanner.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

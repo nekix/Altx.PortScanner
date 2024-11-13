@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Altx.PortScanner</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Altx.PortScanner.Application.Contracts\Altx.PortScanner.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Altx.PortScanner.Domain\Altx.PortScanner.Domain.csproj" />
+    <ProjectReference Include="..\Altx.PortScanner.Shared\Altx.PortScanner.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
